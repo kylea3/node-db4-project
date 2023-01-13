@@ -35,7 +35,7 @@ const steps = [
 
 ]
 
-const steps_ingredients = [
+const step_ingredients = [
     { step_id: 1, ingredient_id: 1, quantity: 'as much as you want' },
     { step_id: 2, ingredient_id: 2, quantity: 'as much as you want' },
     { step_id: 4, ingredient_id: 3, quantity: 1 },
