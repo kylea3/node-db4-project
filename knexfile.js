@@ -4,6 +4,7 @@
  * @type { Object.<string, import("knex").Knex.Config> }
  */
 const sharedConfig = {
+  client: 'sqlite3',
   migrations: { directory: './data/migrations'},
   seeds: { directory: './data/seeds'},
   useNullAsDefault: true,
